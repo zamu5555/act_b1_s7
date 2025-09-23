@@ -32,6 +32,7 @@ public class Producto {
     public void setPrecioBase(double precioBase) {
         if (precioBase > 0) {
             this.precioBase = precioBase;
+        
         } else {
             System.out.println("Ingresa un numero mayor a cero");
         }
