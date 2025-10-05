@@ -87,8 +87,8 @@
     "evaluatedAt": "2025-10-05T15:49:52.325Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   },
-  "SamuelH1211/act_b1_s7": {
-    "repositoryUrl": "SamuelH1211/act_b1_s7",
+  "sharon-Asprilla/act_b1_s7_semana7": {
+    "repositoryUrl": "sharon-Asprilla/act_b1_s7_semana7",
     "studentName": "Estudiante desconocido",
     "activities": [
       {
@@ -96,28 +96,28 @@
         "solutionFile": "src/main/java/com/example/Main.java",
         "score": 0,
         "fileFound": true,
-        "feedback": "La actividad no está resuelta. El archivo Main.java solo contiene un \"Hello world!\", sin ninguna implementación del sistema de tienda solicitado."
+        "feedback": "La solución provista solo contiene un 'Hello world!' y no implementa ninguna de las funcionalidades requeridas para el sistema de tienda. Es necesario completar la lógica para crear productos, gestionarlos, realizar ventas, reabastecer el inventario y aplicar las funciones específicas de cada tipo de producto."
       },
       {
         "activityDescription": "CLASE PADRE - Ejercicio 2: Implementa la clase base Producto con atributos protegidos y métodos obligatorios. INDICACIONES: 1) Declarar atributos protegidos: String nombre, double precioBase, String codigo (formato PROD-XXXX), int cantidadStock, String categoria, boolean activo, 2) Constructor: public Producto(String nombre, double precioBase, String codigo, int cantidadStock, String categoria), 3) Getters y setters con validaciones: setPrecioBase() solo acepta valores > 0, setCantidadStock() solo acepta valores >= 0, setCodigo() debe seguir formato PROD-XXXX, 4) Método calcularPrecioFinal(): calcular precio base + IVA (19%), retornar precioBase * 1.19, 5) Método hayStock(int cantidad): verificar cantidadStock >= cantidad Y producto activo, 6) Método vender(int cantidad): verificar stock con hayStock(), reducir cantidadStock si hay stock, mostrar mensajes apropiados, 7) Método reabastecer(int cantidad): sumar cantidad al stock, mostrar mensaje de reabastecimiento, 8) Método calcularDescuento(): retornar 0.0 en clase padre.",
         "solutionFile": "src/main/java/com/example/Producto.java",
         "score": 0,
         "fileFound": true,
-        "feedback": "La clase Producto está incompleta. No se implementan los atributos, constructor, getters/setters, ni los métodos solicitados en la descripción de la actividad."
+        "feedback": "La clase Producto está completamente vacía. No se implementa ninguno de los atributos ni métodos requeridos en la descripción del ejercicio."
       },
       {
         "activityDescription": "CLASE HIJA ALIMENTICIO - Ejercicio 3: Implementa ProductoAlimenticio que herede de Producto con atributos y métodos específicos. INDICACIONES: 1) Usar extends Producto para heredar, 2) Atributos adicionales: boolean refrigerado, String lote, int diasParaVencer, 3) Constructor que llame a super() con parámetros de clase padre, 4) Método calcularPrecioAlimenticio(): obtener precio con IVA usando calcularPrecioFinal(), si refrigerado agregar 8% sobre precioBase, calcular descuento con calcularDescuentoVencimiento(), aplicar descuento, 5) Método calcularDescuentoVencimiento(): si diasParaVencer <= 3 retornar 0.50, si <= 7 retornar 0.30, si <= 15 retornar 0.15, otros casos 0.0, 6) Método estaProximoAVencer(): retornar true si diasParaVencer <= 7, 7) Método estaVencido(): retornar true si diasParaVencer <= 0, 8) Método obtenerEstadoFrescura(): retornar VENCIDO, URGENTE, PRÓXIMO A VENCER, CONSUMIR PRONTO o FRESCO según días, 9) Método calcularPerdidaPorVencimiento(): si vencido retornar precioBase * cantidadStock, sino 0.0.",
         "solutionFile": "src/main/java/com/example/ProductoAlimenticio.java",
         "score": 0,
         "fileFound": true,
-        "feedback": "La clase ProductoAlimenticio está vacía. No se implementa ninguna de las funcionalidades requeridas en la descripción de la actividad, como la herencia de la clase Producto, los atributos adicionales o los métodos especificados."
+        "feedback": "La clase ProductoAlimenticio está vacía y no implementa ninguna de las funcionalidades requeridas en la descripción de la actividad. No cumple con los requisitos de herencia, atributos, métodos y lógica especificados."
       },
       {
         "activityDescription": "CLASE HIJA ELECTRONICO - Ejercicio 4: Implementa ProductoElectronico que herede de Producto con atributos y métodos específicos. INDICACIONES: 1) Usar extends Producto para heredar, 2) Atributos adicionales: int garantiaMeses, String marca, double voltaje, boolean esImportado, 3) Constructor que llame a super() con parámetros de clase padre, 4) Método calcularPrecioElectronico(): obtener precio con IVA usando calcularPrecioFinal(), si esImportado agregar impuesto 5% sobre precioBase, calcular descuento con calcularDescuentoGarantia(), aplicar descuento, 5) Método calcularDescuentoGarantia(): si garantiaMeses >= 24 retornar 0.10, si >= 12 retornar 0.05, otros casos 0.0, 6) Método esGarantiaExtendida(): retornar true si garantiaMeses > 12, 7) Método calcularCostoGarantia(): retornar precioBase * 0.02 * garantiaMeses, 8) Método esCompatibleVoltaje(double voltajeLocal): calcular diferencia absoluta con Math.abs(), retornar true si diferencia <= 10% del voltajeLocal.",
         "solutionFile": "src/main/java/com/example/ProductoElectronico.java",
         "score": 0,
         "fileFound": true,
-        "feedback": "La clase ProductoElectronico está vacía. No se implementa la herencia de la clase Producto, ni los atributos, constructores o métodos requeridos por la descripción de la actividad."
+        "feedback": "La clase ProductoElectronico está vacía y no implementa ninguna de las funcionalidades requeridas en la descripción del problema.  No hereda de la clase Producto ni implementa los atributos y métodos especificados."
       }
     ],
     "overallScore": 0,
@@ -129,7 +129,7 @@
       "Enfocarse en mejorar la documentación y comentarios del código",
       "Aplicar mejores prácticas de programación"
     ],
-    "evaluatedAt": "2025-10-05T15:50:15.380Z",
+    "evaluatedAt": "2025-10-05T15:50:39.077Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   }
 }
