@@ -1,88 +1,47 @@
 {
   "jesuazav/act_b1_s7": {
     "repositoryUrl": "jesuazav/act_b1_s7",
-    "studentName": "jefferson suaza vera",
+    "studentName": "Estudiante desconocido",
     "activities": [
       {
         "activityDescription": "SISTEMA TIENDA - Ejercicio 1: Implementa la clase SistemaTienda para probar el sistema completo. INDICACIONES: 1) Crear inventario diverso con productos electrónicos y alimenticios, 2) Crear ProductoElectronico laptop importada con 24 meses garantía, 110V, precio base $2,500,000, stock 5 unidades, 3) Crear ProductoElectronico celular con parámetros específicos, 4) Crear ProductoAlimenticio leche refrigerada con 5 días para vencer, precio base $4,500, stock 20 unidades, 5) Crear ProductoAlimenticio pan con parámetros específicos, 6) Probar venta exitosa y fallida por falta de stock, 7) Calcular precios usando métodos específicos de cada clase, 8) Probar reabastecimiento de inventario, 9) Verificar compatibilidad de voltaje, 10) Comparar precio base vs precios específicos, 11) Demostrar funcionalidades únicas de cada tipo.",
         "solutionFile": "src/main/java/com/example/Main.java",
-        "score": 4,
+        "score": 0,
         "fileFound": true,
-        "feedback": "La solución cumple con los requisitos principales, pero sería ideal encapsular la lógica de la tienda en una clase `SistemaTienda` separada en lugar de usar directamente `Main`. Considera mejorar la gestión de errores en las ventas (ej: mostrar mensajes más descriptivos)."
+        "feedback": "El archivo Main.java solo contiene el esqueleto inicial 'Hello world!' y no implementa ninguna de las funcionalidades requeridas para el sistema de tienda. La actividad no está resuelta."
       },
       {
         "activityDescription": "CLASE PADRE - Ejercicio 2: Implementa la clase base Producto con atributos protegidos y métodos obligatorios. INDICACIONES: 1) Declarar atributos protegidos: String nombre, double precioBase, String codigo (formato PROD-XXXX), int cantidadStock, String categoria, boolean activo, 2) Constructor: public Producto(String nombre, double precioBase, String codigo, int cantidadStock, String categoria), 3) Getters y setters con validaciones: setPrecioBase() solo acepta valores > 0, setCantidadStock() solo acepta valores >= 0, setCodigo() debe seguir formato PROD-XXXX, 4) Método calcularPrecioFinal(): calcular precio base + IVA (19%), retornar precioBase * 1.19, 5) Método hayStock(int cantidad): verificar cantidadStock >= cantidad Y producto activo, 6) Método vender(int cantidad): verificar stock con hayStock(), reducir cantidadStock si hay stock, mostrar mensajes apropiados, 7) Método reabastecer(int cantidad): sumar cantidad al stock, mostrar mensaje de reabastecimiento, 8) Método calcularDescuento(): retornar 0.0 en clase padre.",
         "solutionFile": "src/main/java/com/example/Producto.java",
-        "score": 4,
+        "score": 0,
         "fileFound": true,
-        "feedback": "La implementación es correcta y cumple con los requisitos. Se sugiere agregar validación en el constructor para asegurar la consistencia de los datos desde el inicio y usar excepciones en lugar de `System.out.println` para el manejo de errores."
+        "feedback": "La clase Producto está incompleta. No se han implementado los atributos, constructor, getters/setters ni los métodos requeridos en la descripción de la actividad."
       },
       {
         "activityDescription": "CLASE HIJA ALIMENTICIO - Ejercicio 3: Implementa ProductoAlimenticio que herede de Producto con atributos y métodos específicos. INDICACIONES: 1) Usar extends Producto para heredar, 2) Atributos adicionales: boolean refrigerado, String lote, int diasParaVencer, 3) Constructor que llame a super() con parámetros de clase padre, 4) Método calcularPrecioAlimenticio(): obtener precio con IVA usando calcularPrecioFinal(), si refrigerado agregar 8% sobre precioBase, calcular descuento con calcularDescuentoVencimiento(), aplicar descuento, 5) Método calcularDescuentoVencimiento(): si diasParaVencer <= 3 retornar 0.50, si <= 7 retornar 0.30, si <= 15 retornar 0.15, otros casos 0.0, 6) Método estaProximoAVencer(): retornar true si diasParaVencer <= 7, 7) Método estaVencido(): retornar true si diasParaVencer <= 0, 8) Método obtenerEstadoFrescura(): retornar VENCIDO, URGENTE, PRÓXIMO A VENCER, CONSUMIR PRONTO o FRESCO según días, 9) Método calcularPerdidaPorVencimiento(): si vencido retornar precioBase * cantidadStock, sino 0.0.",
         "solutionFile": "src/main/java/com/example/ProductoAlimenticio.java",
-        "score": 4,
+        "score": 0,
         "fileFound": true,
-        "feedback": "La solución implementa correctamente la lógica solicitada. Podría mejorar la legibilidad utilizando constantes para los porcentajes de descuento y el 8% del precio refrigerado, también validar que diasParaVencer no sea negativo en el constructor."
+        "feedback": "La clase ProductoAlimenticio está vacía. No implementa la herencia de Producto ni los atributos y métodos requeridos en la descripción de la actividad."
       },
       {
         "activityDescription": "CLASE HIJA ELECTRONICO - Ejercicio 4: Implementa ProductoElectronico que herede de Producto con atributos y métodos específicos. INDICACIONES: 1) Usar extends Producto para heredar, 2) Atributos adicionales: int garantiaMeses, String marca, double voltaje, boolean esImportado, 3) Constructor que llame a super() con parámetros de clase padre, 4) Método calcularPrecioElectronico(): obtener precio con IVA usando calcularPrecioFinal(), si esImportado agregar impuesto 5% sobre precioBase, calcular descuento con calcularDescuentoGarantia(), aplicar descuento, 5) Método calcularDescuentoGarantia(): si garantiaMeses >= 24 retornar 0.10, si >= 12 retornar 0.05, otros casos 0.0, 6) Método esGarantiaExtendida(): retornar true si garantiaMeses > 12, 7) Método calcularCostoGarantia(): retornar precioBase * 0.02 * garantiaMeses, 8) Método esCompatibleVoltaje(double voltajeLocal): calcular diferencia absoluta con Math.abs(), retornar true si diferencia <= 10% del voltajeLocal.",
         "solutionFile": "src/main/java/com/example/ProductoElectronico.java",
-        "score": 5,
+        "score": 0,
         "fileFound": true,
-        "feedback": "La solución implementa correctamente la clase ProductoElectronico con todos los métodos requeridos y lógica adecuada. El código es limpio, bien estructurado y cumple con las indicaciones proporcionadas."
+        "feedback": "La clase ProductoElectronico está incompleta. No implementa la herencia de la clase Producto ni los atributos y métodos requeridos en la descripción del problema."
       }
     ],
-    "overallScore": 4.25,
+    "overallScore": 0,
     "totalActivities": 4,
-    "completedActivities": 4,
-    "summary": "Excelente trabajo. Completó 4/4 actividades (100%) con una calificación promedio de 4.3/5. Demuestra buen dominio de los conceptos.",
+    "completedActivities": 0,
+    "summary": "Necesita mejorar. Completó 0/4 actividades (0%) con una calificación promedio de 0.0/5. Se recomienda revisar los conceptos fundamentales.",
     "recommendations": [
-      "Continuar con el excelente trabajo y mantener la calidad del código"
+      "Revisar y mejorar las actividades con calificación baja",
+      "Enfocarse en mejorar la documentación y comentarios del código",
+      "Aplicar mejores prácticas de programación"
     ],
-    "evaluatedAt": "2025-08-26T13:38:41.816Z",
-    "evaluatedBy": "Sistema de Evaluación"
-  },
-  "Elgrinch001/act_b1_s7": {
-    "repositoryUrl": "Elgrinch001/act_b1_s7",
-    "studentName": "santiago Bohorquez",
-    "activities": [
-      {
-        "activityDescription": "SISTEMA TIENDA - Ejercicio 1: Implementa la clase SistemaTienda para probar el sistema completo. INDICACIONES: 1) Crear inventario diverso con productos electrónicos y alimenticios, 2) Crear ProductoElectronico laptop importada con 24 meses garantía, 110V, precio base $2,500,000, stock 5 unidades, 3) Crear ProductoElectronico celular con parámetros específicos, 4) Crear ProductoAlimenticio leche refrigerada con 5 días para vencer, precio base $4,500, stock 20 unidades, 5) Crear ProductoAlimenticio pan con parámetros específicos, 6) Probar venta exitosa y fallida por falta de stock, 7) Calcular precios usando métodos específicos de cada clase, 8) Probar reabastecimiento de inventario, 9) Verificar compatibilidad de voltaje, 10) Comparar precio base vs precios específicos, 11) Demostrar funcionalidades únicas de cada tipo.",
-        "solutionFile": "src/main/java/com/example/Main.java",
-        "score": 4,
-        "fileFound": true,
-        "feedback": "La solución implementa correctamente los casos de prueba, pero falta la creación del SistemaTienda como clase contenedora e inventario. Se podrían mejorar las pruebas agregando más escenarios de borde y validaciones."
-      },
-      {
-        "activityDescription": "CLASE PADRE - Ejercicio 2: Implementa la clase base Producto con atributos protegidos y métodos obligatorios. INDICACIONES: 1) Declarar atributos protegidos: String nombre, double precioBase, String codigo (formato PROD-XXXX), int cantidadStock, String categoria, boolean activo, 2) Constructor: public Producto(String nombre, double precioBase, String codigo, int cantidadStock, String categoria), 3) Getters y setters con validaciones: setPrecioBase() solo acepta valores > 0, setCantidadStock() solo acepta valores >= 0, setCodigo() debe seguir formato PROD-XXXX, 4) Método calcularPrecioFinal(): calcular precio base + IVA (19%), retornar precioBase * 1.19, 5) Método hayStock(int cantidad): verificar cantidadStock >= cantidad Y producto activo, 6) Método vender(int cantidad): verificar stock con hayStock(), reducir cantidadStock si hay stock, mostrar mensajes apropiados, 7) Método reabastecer(int cantidad): sumar cantidad al stock, mostrar mensaje de reabastecimiento, 8) Método calcularDescuento(): retornar 0.0 en clase padre.",
-        "solutionFile": "src/main/java/com/example/Producto.java",
-        "score": 4,
-        "fileFound": true,
-        "feedback": "La solución cumple con los requisitos principales, incluyendo validaciones y métodos de negocio. Considera añadir manejo de excepciones para errores más robustos y usar constantes para el IVA en lugar de valores mágicos."
-      },
-      {
-        "activityDescription": "CLASE HIJA ALIMENTICIO - Ejercicio 3: Implementa ProductoAlimenticio que herede de Producto con atributos y métodos específicos. INDICACIONES: 1) Usar extends Producto para heredar, 2) Atributos adicionales: boolean refrigerado, String lote, int diasParaVencer, 3) Constructor que llame a super() con parámetros de clase padre, 4) Método calcularPrecioAlimenticio(): obtener precio con IVA usando calcularPrecioFinal(), si refrigerado agregar 8% sobre precioBase, calcular descuento con calcularDescuentoVencimiento(), aplicar descuento, 5) Método calcularDescuentoVencimiento(): si diasParaVencer <= 3 retornar 0.50, si <= 7 retornar 0.30, si <= 15 retornar 0.15, otros casos 0.0, 6) Método estaProximoAVencer(): retornar true si diasParaVencer <= 7, 7) Método estaVencido(): retornar true si diasParaVencer <= 0, 8) Método obtenerEstadoFrescura(): retornar VENCIDO, URGENTE, PRÓXIMO A VENCER, CONSUMIR PRONTO o FRESCO según días, 9) Método calcularPerdidaPorVencimiento(): si vencido retornar precioBase * cantidadStock, sino 0.0.",
-        "solutionFile": "src/main/java/com/example/ProductoAlimenticio.java",
-        "score": 4,
-        "fileFound": true,
-        "feedback": "La solución es correcta y cumple con los requisitos. Se podría mejorar la claridad en `calcularPrecioAlimenticio` combinando las operaciones en una sola línea para mayor legibilidad."
-      },
-      {
-        "activityDescription": "CLASE HIJA ELECTRONICO - Ejercicio 4: Implementa ProductoElectronico que herede de Producto con atributos y métodos específicos. INDICACIONES: 1) Usar extends Producto para heredar, 2) Atributos adicionales: int garantiaMeses, String marca, double voltaje, boolean esImportado, 3) Constructor que llame a super() con parámetros de clase padre, 4) Método calcularPrecioElectronico(): obtener precio con IVA usando calcularPrecioFinal(), si esImportado agregar impuesto 5% sobre precioBase, calcular descuento con calcularDescuentoGarantia(), aplicar descuento, 5) Método calcularDescuentoGarantia(): si garantiaMeses >= 24 retornar 0.10, si >= 12 retornar 0.05, otros casos 0.0, 6) Método esGarantiaExtendida(): retornar true si garantiaMeses > 12, 7) Método calcularCostoGarantia(): retornar precioBase * 0.02 * garantiaMeses, 8) Método esCompatibleVoltaje(double voltajeLocal): calcular diferencia absoluta con Math.abs(), retornar true si diferencia <= 10% del voltajeLocal.",
-        "solutionFile": "src/main/java/com/example/ProductoElectronico.java",
-        "score": 4,
-        "fileFound": true,
-        "feedback": "La solución implementa correctamente la herencia y los métodos requeridos. Podría mejorarse la legibilidad del método `calcularPrecioElectronico` separando los cálculos en variables intermedias para facilitar la comprensión."
-      }
-    ],
-    "overallScore": 4,
-    "totalActivities": 4,
-    "completedActivities": 4,
-    "summary": "Excelente trabajo. Completó 4/4 actividades (100%) con una calificación promedio de 4.0/5. Demuestra buen dominio de los conceptos.",
-    "recommendations": [
-      "Continuar con el excelente trabajo y mantener la calidad del código"
-    ],
-    "evaluatedAt": "2025-10-05T15:46:55.957Z",
+    "evaluatedAt": "2025-10-05T15:47:18.096Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   }
 }
