@@ -10,7 +10,7 @@
 endobj
 4 0 obj
 <<
-/Length 11441
+/Length 11432
 >>
 stream
 0.5670000000000001 w
@@ -41,14 +41,14 @@ BT
 11.5 TL
 0 g
 39.6850393700787407 708.346692913385823 Td
-(Repositorio: Cristiandu12/act_b1_s7) Tj
+(Repositorio: SantiagoCalderon11/act_b1_s7) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0 g
 39.6850393700787407 692.6774015748030706 Td
-(Fecha de evaluación: 5/10/2025, 10:48:03) Tj
+(Fecha de evaluación: 5/10/2025, 10:48:25) Tj
 ET
 BT
 /F1 10 Tf
@@ -492,8 +492,8 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 166.3179527559057078 Td
-(El archivo Main.java solo contiene un 'Hello world!' y no implementa ninguna de las funcionalidades requeridas para) Tj
-T* (el sistema de tienda. La actividad no se ha resuelto en absoluto.) Tj
+(La actividad no está resuelta. El archivo Main.java solo contiene un 'Hello world!' y no implementa la lógica) Tj
+T* (solicitada para el sistema de tienda.) Tj
 ET
 BT
 /F2 10 Tf
@@ -545,8 +545,8 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 -62.7017322834643664 Td
-(La clase Producto está incompleta. No se implementan los atributos, constructor, getters/setters, ni los métodos) Tj
-T* (requeridos en la descripción de la actividad.) Tj
+(La clase Producto está completamente vacía, no se implementa ningún atributo ni método requerido en la) Tj
+T* (descripción de la actividad.  Es necesario implementar la lógica completa.) Tj
 ET
 BT
 /F1 8 Tf
@@ -574,7 +574,7 @@ endobj
 endobj
 6 0 obj
 <<
-/Length 4901
+/Length 4913
 >>
 stream
 0.5670000000000001 w
@@ -629,8 +629,8 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 591.8506299212599515 Td
-(La clase `ProductoAlimenticio` está vacía. No implementa la herencia desde la clase `Producto` ni los atributos y) Tj
-T* (métodos requeridos por la descripción de la actividad.) Tj
+(La clase ProductoAlimenticio está incompleta. No implementa la herencia de Producto, ni los atributos, constructor) Tj
+T* (y métodos requeridos en la descripción de la actividad.) Tj
 ET
 BT
 /F2 10 Tf
@@ -681,8 +681,8 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 374.3309448818899341 Td
-(La clase ProductoElectronico está vacía. No implementa la herencia de la clase Producto, ni los atributos y) Tj
-T* (métodos requeridos en la descripción de la actividad.) Tj
+(La clase ProductoElectronico está vacía. No se implementa la herencia de la clase Producto ni ninguno de los) Tj
+T* (atributos y métodos requeridos en la descripción del problema.) Tj
 ET
 BT
 /F2 12 Tf
@@ -913,7 +913,7 @@ endobj
 21 0 obj
 <<
 /Producer (jsPDF 3.0.1)
-/CreationDate (D:20251005104803-05'00')
+/CreationDate (D:20251005104825-05'00')
 >>
 endobj
 22 0 obj
@@ -927,35 +927,35 @@ endobj
 xref
 0 23
 0000000000 65535 f 
-0000016736 00000 n 
-0000018561 00000 n 
+0000016739 00000 n 
+0000018564 00000 n 
 0000000015 00000 n 
 0000000152 00000 n 
-0000011646 00000 n 
-0000011783 00000 n 
-0000016799 00000 n 
-0000016924 00000 n 
-0000017054 00000 n 
-0000017187 00000 n 
-0000017325 00000 n 
-0000017449 00000 n 
-0000017578 00000 n 
-0000017710 00000 n 
-0000017846 00000 n 
-0000017974 00000 n 
-0000018101 00000 n 
-0000018230 00000 n 
-0000018363 00000 n 
-0000018465 00000 n 
-0000018811 00000 n 
-0000018897 00000 n 
+0000011637 00000 n 
+0000011774 00000 n 
+0000016802 00000 n 
+0000016927 00000 n 
+0000017057 00000 n 
+0000017190 00000 n 
+0000017328 00000 n 
+0000017452 00000 n 
+0000017581 00000 n 
+0000017713 00000 n 
+0000017849 00000 n 
+0000017977 00000 n 
+0000018104 00000 n 
+0000018233 00000 n 
+0000018366 00000 n 
+0000018468 00000 n 
+0000018814 00000 n 
+0000018900 00000 n 
 trailer
 <<
 /Size 23
 /Root 22 0 R
 /Info 21 0 R
-/ID [ <8076B7A7BEEFE3FDE8CC2E2482AF74DF> <8076B7A7BEEFE3FDE8CC2E2482AF74DF> ]
+/ID [ <530FDB17EAE02D3D74685B7FA92006B9> <530FDB17EAE02D3D74685B7FA92006B9> ]
 >>
 startxref
-19001
+19004
 %%EOF
