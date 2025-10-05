@@ -10,7 +10,7 @@
 endobj
 4 0 obj
 <<
-/Length 11474
+/Length 11405
 >>
 stream
 0.5670000000000001 w
@@ -41,14 +41,14 @@ BT
 11.5 TL
 0 g
 39.6850393700787407 708.346692913385823 Td
-(Repositorio: killmyselff/act_b1_s7) Tj
+(Repositorio: SamuelH1211/act_b1_s7) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0 g
 39.6850393700787407 692.6774015748030706 Td
-(Fecha de evaluación: 5/10/2025, 10:49:52) Tj
+(Fecha de evaluación: 5/10/2025, 10:50:15) Tj
 ET
 BT
 /F1 10 Tf
@@ -492,8 +492,8 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 166.3179527559057078 Td
-(La solución proporcionada solo contiene el esqueleto de un programa Java básico, sin ninguna implementación de) Tj
-T* (la lógica requerida para el sistema de tienda. No resuelve la actividad descrita.) Tj
+(La actividad no está resuelta. El archivo Main.java solo contiene un "Hello world!", sin ninguna implementación del) Tj
+T* (sistema de tienda solicitado.) Tj
 ET
 BT
 /F2 10 Tf
@@ -545,8 +545,8 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 -62.7017322834643664 Td
-(La clase Producto está vacía. No se implementa ninguno de los atributos ni métodos requeridos en la descripción) Tj
-T* (de la actividad. Necesitas implementar todos los elementos descritos.) Tj
+(La clase Producto está incompleta. No se implementan los atributos, constructor, getters/setters, ni los métodos) Tj
+T* (solicitados en la descripción de la actividad.) Tj
 ET
 BT
 /F1 8 Tf
@@ -574,7 +574,7 @@ endobj
 endobj
 6 0 obj
 <<
-/Length 4921
+/Length 4988
 >>
 stream
 0.5670000000000001 w
@@ -629,14 +629,15 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 591.8506299212599515 Td
-(La clase ProductoAlimenticio está incompleta. No implementa la herencia de la clase Producto ni ninguno de los) Tj
-T* (atributos o métodos requeridos en la descripción de la actividad.) Tj
+(La clase ProductoAlimenticio está vacía. No se implementa ninguna de las funcionalidades requeridas en la) Tj
+T* (descripción de la actividad, como la herencia de la clase Producto, los atributos adicionales o los métodos) Tj
+T* (especificados.) Tj
 ET
 BT
 /F2 10 Tf
 11.5 TL
 0. g
-39.6850393700787407 556.1774015748031843 Td
+39.6850393700787407 544.6774015748031843 Td
 (Actividad 4: CLASE HIJA ELECTRONICO - Ejercicio 4: Implementa ProductoElectronico que herede de) Tj
 T* (Producto con atributos y métodos específicos. INDICACIONES: 1\) Usar extends Producto para heredar, 2\)) Tj
 T* (Atributos adicionales: int garantiaMeses, String marca, double voltaje, boolean esImportado, 3\)) Tj
@@ -652,50 +653,50 @@ BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 437.0081102362205456 Td
+51.0236220472441033 425.5081102362205456 Td
 (Archivo esperado: src/main/java/com/example/ProductoElectronico.java) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 421.338818897637907 Td
+51.0236220472441033 409.838818897637907 Td
 (Estado: Archivo encontrado) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 405.6695275590552114 Td
+51.0236220472441033 394.1695275590552683 Td
 (Calificación: 0.0/5.0) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 390.0002362204725728 Td
+51.0236220472441033 378.5002362204725728 Td
 (Retroalimentación:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 374.3309448818899341 Td
-(La clase `ProductoElectronico` está incompleta. No implementa la herencia de `Producto`, ni los atributos,) Tj
-T* (constructores y métodos requeridos en la descripción del problema.) Tj
+62.3622047244094517 362.8309448818899341 Td
+(La clase ProductoElectronico está vacía. No se implementa la herencia de la clase Producto, ni los atributos,) Tj
+T* (constructores o métodos requeridos por la descripción de la actividad.) Tj
 ET
 BT
 /F2 12 Tf
 13.7999999999999989 TL
 0. g
-39.6850393700787407 338.6577165354332237 Td
+39.6850393700787407 327.1577165354332237 Td
 (Resumen General) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-39.6850393700787407 315.3191338582679464 Td
+39.6850393700787407 303.8191338582679464 Td
 (Necesita mejorar. Completó 0/4 actividades \(0%\) con una calificación promedio de 0.0/5. Se recomienda revisar los) Tj
 T* (conceptos fundamentales.) Tj
 ET
@@ -703,28 +704,28 @@ BT
 /F2 12 Tf
 13.7999999999999989 TL
 0. g
-39.6850393700787407 273.9766141732285405 Td
+39.6850393700787407 262.4766141732285405 Td
 (Recomendaciones) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 250.6380314960632631 Td
+51.0236220472441033 239.1380314960632631 Td
 (• Revisar y mejorar las actividades con calificación baja) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 234.9687401574806245 Td
+51.0236220472441033 223.4687401574806245 Td
 (• Enfocarse en mejorar la documentación y comentarios del código) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 219.2994488188979858 Td
+51.0236220472441033 207.7994488188979858 Td
 (• Aplicar mejores prácticas de programación) Tj
 ET
 BT
@@ -913,7 +914,7 @@ endobj
 21 0 obj
 <<
 /Producer (jsPDF 3.0.1)
-/CreationDate (D:20251005104952-05'00')
+/CreationDate (D:20251005105015-05'00')
 >>
 endobj
 22 0 obj
@@ -927,35 +928,35 @@ endobj
 xref
 0 23
 0000000000 65535 f 
-0000016789 00000 n 
-0000018614 00000 n 
+0000016787 00000 n 
+0000018612 00000 n 
 0000000015 00000 n 
 0000000152 00000 n 
-0000011679 00000 n 
-0000011816 00000 n 
-0000016852 00000 n 
-0000016977 00000 n 
-0000017107 00000 n 
-0000017240 00000 n 
-0000017378 00000 n 
-0000017502 00000 n 
-0000017631 00000 n 
-0000017763 00000 n 
-0000017899 00000 n 
-0000018027 00000 n 
-0000018154 00000 n 
-0000018283 00000 n 
-0000018416 00000 n 
-0000018518 00000 n 
-0000018864 00000 n 
-0000018950 00000 n 
+0000011610 00000 n 
+0000011747 00000 n 
+0000016850 00000 n 
+0000016975 00000 n 
+0000017105 00000 n 
+0000017238 00000 n 
+0000017376 00000 n 
+0000017500 00000 n 
+0000017629 00000 n 
+0000017761 00000 n 
+0000017897 00000 n 
+0000018025 00000 n 
+0000018152 00000 n 
+0000018281 00000 n 
+0000018414 00000 n 
+0000018516 00000 n 
+0000018862 00000 n 
+0000018948 00000 n 
 trailer
 <<
 /Size 23
 /Root 22 0 R
 /Info 21 0 R
-/ID [ <F5568F97683E7AF7E0F803E009745ACD> <F5568F97683E7AF7E0F803E009745ACD> ]
+/ID [ <E898C5F4A5674BF4A0734088A881A2BF> <E898C5F4A5674BF4A0734088A881A2BF> ]
 >>
 startxref
-19054
+19052
 %%EOF
