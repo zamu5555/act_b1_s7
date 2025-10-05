@@ -10,7 +10,7 @@
 endobj
 4 0 obj
 <<
-/Length 11432
+/Length 11456
 >>
 stream
 0.5670000000000001 w
@@ -41,14 +41,14 @@ BT
 11.5 TL
 0 g
 39.6850393700787407 708.346692913385823 Td
-(Repositorio: SantiagoCalderon11/act_b1_s7) Tj
+(Repositorio: tatojn/act_b1_s7) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0 g
 39.6850393700787407 692.6774015748030706 Td
-(Fecha de evaluación: 5/10/2025, 10:48:25) Tj
+(Fecha de evaluación: 5/10/2025, 10:49:08) Tj
 ET
 BT
 /F1 10 Tf
@@ -492,8 +492,8 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 166.3179527559057078 Td
-(La actividad no está resuelta. El archivo Main.java solo contiene un 'Hello world!' y no implementa la lógica) Tj
-T* (solicitada para el sistema de tienda.) Tj
+(El archivo Main.java solo contiene un 'Hello world!' y no implementa ninguna de las funcionalidades requeridas para) Tj
+T* (el sistema de tienda. La actividad no se resuelve en absoluto.) Tj
 ET
 BT
 /F2 10 Tf
@@ -545,8 +545,8 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 -62.7017322834643664 Td
-(La clase Producto está completamente vacía, no se implementa ningún atributo ni método requerido en la) Tj
-T* (descripción de la actividad.  Es necesario implementar la lógica completa.) Tj
+(La clase Producto está vacía. No se implementa ninguno de los atributos ni métodos requeridos en la descripción) Tj
+T* (del ejercicio. Se necesita implementar la lógica completa de la clase.) Tj
 ET
 BT
 /F1 8 Tf
@@ -574,7 +574,7 @@ endobj
 endobj
 6 0 obj
 <<
-/Length 4913
+/Length 4955
 >>
 stream
 0.5670000000000001 w
@@ -629,8 +629,8 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 591.8506299212599515 Td
-(La clase ProductoAlimenticio está incompleta. No implementa la herencia de Producto, ni los atributos, constructor) Tj
-T* (y métodos requeridos en la descripción de la actividad.) Tj
+(La clase ProductoAlimenticio está incompleta. No implementa la herencia de Producto ni los atributos y métodos) Tj
+T* (requeridos en la descripción.) Tj
 ET
 BT
 /F2 10 Tf
@@ -681,21 +681,22 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 374.3309448818899341 Td
-(La clase ProductoElectronico está vacía. No se implementa la herencia de la clase Producto ni ninguno de los) Tj
-T* (atributos y métodos requeridos en la descripción del problema.) Tj
+(La clase ProductoElectronico está incompleta, no hereda de Producto ni implementa los atributos y métodos) Tj
+T* (requeridos. Necesita implementar la herencia, atributos, constructores y métodos especificados en la descripción) Tj
+T* (de la actividad.) Tj
 ET
 BT
 /F2 12 Tf
 13.7999999999999989 TL
 0. g
-39.6850393700787407 338.6577165354332237 Td
+39.6850393700787407 327.1577165354332237 Td
 (Resumen General) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-39.6850393700787407 315.3191338582679464 Td
+39.6850393700787407 303.8191338582678327 Td
 (Necesita mejorar. Completó 0/4 actividades \(0%\) con una calificación promedio de 0.0/5. Se recomienda revisar los) Tj
 T* (conceptos fundamentales.) Tj
 ET
@@ -703,28 +704,28 @@ BT
 /F2 12 Tf
 13.7999999999999989 TL
 0. g
-39.6850393700787407 273.9766141732285405 Td
+39.6850393700787407 262.4766141732285405 Td
 (Recomendaciones) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 250.6380314960632631 Td
+51.0236220472441033 239.1380314960631495 Td
 (• Revisar y mejorar las actividades con calificación baja) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 234.9687401574806245 Td
+51.0236220472441033 223.4687401574805108 Td
 (• Enfocarse en mejorar la documentación y comentarios del código) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 219.2994488188979858 Td
+51.0236220472441033 207.7994488188978721 Td
 (• Aplicar mejores prácticas de programación) Tj
 ET
 BT
@@ -913,7 +914,7 @@ endobj
 21 0 obj
 <<
 /Producer (jsPDF 3.0.1)
-/CreationDate (D:20251005104825-05'00')
+/CreationDate (D:20251005104908-05'00')
 >>
 endobj
 22 0 obj
@@ -927,35 +928,35 @@ endobj
 xref
 0 23
 0000000000 65535 f 
-0000016739 00000 n 
-0000018564 00000 n 
+0000016805 00000 n 
+0000018630 00000 n 
 0000000015 00000 n 
 0000000152 00000 n 
-0000011637 00000 n 
-0000011774 00000 n 
-0000016802 00000 n 
-0000016927 00000 n 
-0000017057 00000 n 
-0000017190 00000 n 
-0000017328 00000 n 
-0000017452 00000 n 
-0000017581 00000 n 
-0000017713 00000 n 
-0000017849 00000 n 
-0000017977 00000 n 
-0000018104 00000 n 
-0000018233 00000 n 
-0000018366 00000 n 
-0000018468 00000 n 
-0000018814 00000 n 
-0000018900 00000 n 
+0000011661 00000 n 
+0000011798 00000 n 
+0000016868 00000 n 
+0000016993 00000 n 
+0000017123 00000 n 
+0000017256 00000 n 
+0000017394 00000 n 
+0000017518 00000 n 
+0000017647 00000 n 
+0000017779 00000 n 
+0000017915 00000 n 
+0000018043 00000 n 
+0000018170 00000 n 
+0000018299 00000 n 
+0000018432 00000 n 
+0000018534 00000 n 
+0000018880 00000 n 
+0000018966 00000 n 
 trailer
 <<
 /Size 23
 /Root 22 0 R
 /Info 21 0 R
-/ID [ <530FDB17EAE02D3D74685B7FA92006B9> <530FDB17EAE02D3D74685B7FA92006B9> ]
+/ID [ <06E630FEE53500CC6D0AB318658DC0BC> <06E630FEE53500CC6D0AB318658DC0BC> ]
 >>
 startxref
-19004
+19070
 %%EOF
