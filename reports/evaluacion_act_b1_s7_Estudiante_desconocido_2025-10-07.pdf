@@ -10,7 +10,7 @@
 endobj
 4 0 obj
 <<
-/Length 11396
+/Length 9645
 >>
 stream
 0.5670000000000001 w
@@ -41,14 +41,14 @@ BT
 11.5 TL
 0 g
 39.6850393700787407 708.346692913385823 Td
-(Repositorio: jesuazav/act_b1_s7) Tj
+(Repositorio: Cristiandu12/act_b1_s7) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0 g
 39.6850393700787407 692.6774015748030706 Td
-(Fecha de evaluación: 7/10/2025, 10:16:01) Tj
+(Fecha de evaluación: 7/10/2025, 10:17:02) Tj
 ET
 BT
 /F1 10 Tf
@@ -492,68 +492,16 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 166.3179527559057078 Td
-(La actividad no se ha implementado. El archivo Main.java solo contiene un "Hello world!", no cumpliendo con los) Tj
-T* (requisitos del problema planteado.) Tj
-ET
-BT
-/F2 10 Tf
-11.5 TL
-0. g
-39.6850393700787407 130.6447244094490543 Td
-(Actividad 2: CLASE PADRE - Ejercicio 2: Implementa la clase base Producto con atributos protegidos y) Tj
-T* (métodos obligatorios. INDICACIONES: 1\) Declarar atributos protegidos: String nombre, double precioBase,) Tj
-T* (String codigo \(formato PROD-XXXX\), int cantidadStock, String categoria, boolean activo, 2\) Constructor:) Tj
-T* (public Producto\(String nombre, double precioBase, String codigo, int cantidadStock, String categoria\), 3\)) Tj
-T* (Getters y setters con validaciones: setPrecioBase\(\) solo acepta valores > 0, setCantidadStock\(\) solo acepta) Tj
-T* (valores >= 0, setCodigo\(\) debe seguir formato PROD-XXXX, 4\) Método calcularPrecioFinal\(\): calcular precio) Tj
-T* (base + IVA \(19%\), retornar precioBase * 1.19, 5\) Método hayStock\(int cantidad\): verificar cantidadStock >=) Tj
-T* (cantidad Y producto activo, 6\) Método vender\(int cantidad\): verificar stock con hayStock\(\), reducir) Tj
-T* (cantidadStock si hay stock, mostrar mensajes apropiados, 7\) Método reabastecer\(int cantidad\): sumar) Tj
-T* (cantidad al stock, mostrar mensaje de reabastecimiento, 8\) Método calcularDescuento\(\): retornar 0.0 en) Tj
-T* (clase padre.) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-51.0236220472441033 -0.0245669291336981 Td
-(Archivo esperado: src/main/java/com/example/Producto.java) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-51.0236220472441033 -15.6938582677163367 Td
-(Estado: Archivo encontrado) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-51.0236220472441033 -31.3631496062989754 Td
-(Calificación: 0.0/5.0) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-51.0236220472441033 -47.0324409448817278 Td
-(Retroalimentación:) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-62.3622047244094517 -62.7017322834643664 Td
-(La clase Producto está vacía. No se implementan los atributos, constructor, getters/setters ni los métodos) Tj
-T* (requeridos en la descripción de la actividad.) Tj
+(La implementación actual solo contiene un 'Hello world!' y no resuelve ninguno de los requisitos del sistema de) Tj
+T* (tienda. Falta completamente la lógica para la creación de productos, la gestión del inventario, las ventas, el cálculo) Tj
+T* (de precios y las funcionalidades específicas de cada tipo de producto.) Tj
 ET
 BT
 /F1 8 Tf
 9.1999999999999993 TL
 0. g
 510.2406299212597673 28.3464566929134207 Td
-(Página 1 de 2) Tj
+(Página 1 de 3) Tj
 ET
 BT
 /F1 8 Tf
@@ -574,7 +522,7 @@ endobj
 endobj
 6 0 obj
 <<
-/Length 4943
+/Length 6008
 >>
 stream
 0.5670000000000001 w
@@ -584,24 +532,24 @@ BT
 11.5 TL
 0. g
 39.6850393700787407 785.1970866141732586 Td
-(Actividad 3: CLASE HIJA ALIMENTICIO - Ejercicio 3: Implementa ProductoAlimenticio que herede de) Tj
-T* (Producto con atributos y métodos específicos. INDICACIONES: 1\) Usar extends Producto para heredar, 2\)) Tj
-T* (Atributos adicionales: boolean refrigerado, String lote, int diasParaVencer, 3\) Constructor que llame a) Tj
-T* (super\(\) con parámetros de clase padre, 4\) Método calcularPrecioAlimenticio\(\): obtener precio con IVA) Tj
-T* (usando calcularPrecioFinal\(\), si refrigerado agregar 8% sobre precioBase, calcular descuento con) Tj
-T* (calcularDescuentoVencimiento\(\), aplicar descuento, 5\) Método calcularDescuentoVencimiento\(\): si) Tj
-T* (diasParaVencer <= 3 retornar 0.50, si <= 7 retornar 0.30, si <= 15 retornar 0.15, otros casos 0.0, 6\) Método) Tj
-T* (estaProximoAVencer\(\): retornar true si diasParaVencer <= 7, 7\) Método estaVencido\(\): retornar true si) Tj
-T* (diasParaVencer <= 0, 8\) Método obtenerEstadoFrescura\(\): retornar VENCIDO, URGENTE, PRÓXIMO A) Tj
-T* (VENCER, CONSUMIR PRONTO o FRESCO según días, 9\) Método calcularPerdidaPorVencimiento\(\): si) Tj
-T* (vencido retornar precioBase * cantidadStock, sino 0.0.) Tj
+(Actividad 2: CLASE PADRE - Ejercicio 2: Implementa la clase base Producto con atributos protegidos y) Tj
+T* (métodos obligatorios. INDICACIONES: 1\) Declarar atributos protegidos: String nombre, double precioBase,) Tj
+T* (String codigo \(formato PROD-XXXX\), int cantidadStock, String categoria, boolean activo, 2\) Constructor:) Tj
+T* (public Producto\(String nombre, double precioBase, String codigo, int cantidadStock, String categoria\), 3\)) Tj
+T* (Getters y setters con validaciones: setPrecioBase\(\) solo acepta valores > 0, setCantidadStock\(\) solo acepta) Tj
+T* (valores >= 0, setCodigo\(\) debe seguir formato PROD-XXXX, 4\) Método calcularPrecioFinal\(\): calcular precio) Tj
+T* (base + IVA \(19%\), retornar precioBase * 1.19, 5\) Método hayStock\(int cantidad\): verificar cantidadStock >=) Tj
+T* (cantidad Y producto activo, 6\) Método vender\(int cantidad\): verificar stock con hayStock\(\), reducir) Tj
+T* (cantidadStock si hay stock, mostrar mensajes apropiados, 7\) Método reabastecer\(int cantidad\): sumar) Tj
+T* (cantidad al stock, mostrar mensaje de reabastecimiento, 8\) Método calcularDescuento\(\): retornar 0.0 en) Tj
+T* (clase padre.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
 51.0236220472441033 654.5277952755905062 Td
-(Archivo esperado: src/main/java/com/example/ProductoAlimenticio.java) Tj
+(Archivo esperado: src/main/java/com/example/Producto.java) Tj
 ET
 BT
 /F1 10 Tf
@@ -629,14 +577,67 @@ BT
 11.5 TL
 0. g
 62.3622047244094517 591.8506299212599515 Td
-(La clase `ProductoAlimenticio` está vacía. No se implementa ninguna de las funcionalidades requeridas en la) Tj
-T* (descripción de la actividad, por lo que no cumple con ningún criterio de evaluación.) Tj
+(La clase Producto está vacía. No cumple con ninguno de los requerimientos de la actividad, como la declaración de) Tj
+T* (atributos, constructor, getters/setters, y los métodos solicitados.) Tj
 ET
 BT
 /F2 10 Tf
 11.5 TL
 0. g
 39.6850393700787407 556.1774015748031843 Td
+(Actividad 3: CLASE HIJA ALIMENTICIO - Ejercicio 3: Implementa ProductoAlimenticio que herede de) Tj
+T* (Producto con atributos y métodos específicos. INDICACIONES: 1\) Usar extends Producto para heredar, 2\)) Tj
+T* (Atributos adicionales: boolean refrigerado, String lote, int diasParaVencer, 3\) Constructor que llame a) Tj
+T* (super\(\) con parámetros de clase padre, 4\) Método calcularPrecioAlimenticio\(\): obtener precio con IVA) Tj
+T* (usando calcularPrecioFinal\(\), si refrigerado agregar 8% sobre precioBase, calcular descuento con) Tj
+T* (calcularDescuentoVencimiento\(\), aplicar descuento, 5\) Método calcularDescuentoVencimiento\(\): si) Tj
+T* (diasParaVencer <= 3 retornar 0.50, si <= 7 retornar 0.30, si <= 15 retornar 0.15, otros casos 0.0, 6\) Método) Tj
+T* (estaProximoAVencer\(\): retornar true si diasParaVencer <= 7, 7\) Método estaVencido\(\): retornar true si) Tj
+T* (diasParaVencer <= 0, 8\) Método obtenerEstadoFrescura\(\): retornar VENCIDO, URGENTE, PRÓXIMO A) Tj
+T* (VENCER, CONSUMIR PRONTO o FRESCO según días, 9\) Método calcularPerdidaPorVencimiento\(\): si) Tj
+T* (vencido retornar precioBase * cantidadStock, sino 0.0.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+51.0236220472441033 425.5081102362205456 Td
+(Archivo esperado: src/main/java/com/example/ProductoAlimenticio.java) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+51.0236220472441033 409.838818897637907 Td
+(Estado: Archivo encontrado) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+51.0236220472441033 394.1695275590552683 Td
+(Calificación: 0.0/5.0) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+51.0236220472441033 378.5002362204725728 Td
+(Retroalimentación:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+62.3622047244094517 362.8309448818899341 Td
+(La clase `ProductoAlimenticio` está vacía, por lo que no cumple con ninguno de los requisitos de la actividad. ) Tj
+T* (Necesita implementar la herencia, atributos, constructor y métodos descritos.) Tj
+ET
+BT
+/F2 10 Tf
+11.5 TL
+0. g
+39.6850393700787407 327.1577165354332237 Td
 (Actividad 4: CLASE HIJA ELECTRONICO - Ejercicio 4: Implementa ProductoElectronico que herede de) Tj
 T* (Producto con atributos y métodos específicos. INDICACIONES: 1\) Usar extends Producto para heredar, 2\)) Tj
 T* (Atributos adicionales: int garantiaMeses, String marca, double voltaje, boolean esImportado, 3\)) Tj
@@ -652,50 +653,81 @@ BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 437.0081102362205456 Td
+51.0236220472441033 207.9884251968505851 Td
 (Archivo esperado: src/main/java/com/example/ProductoElectronico.java) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 421.338818897637907 Td
+51.0236220472441033 192.3191338582679464 Td
 (Estado: Archivo encontrado) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 405.6695275590552114 Td
+51.0236220472441033 176.6498425196853077 Td
 (Calificación: 0.0/5.0) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 390.0002362204725728 Td
+51.0236220472441033 160.980551181102669 Td
 (Retroalimentación:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 374.3309448818899341 Td
-(La clase ProductoElectronico está vacía. No se implementa la herencia de la clase Producto, ni los atributos,) Tj
-T* (constructores o métodos requeridos en la descripción de la actividad.) Tj
+62.3622047244094517 145.3112598425199167 Td
+(La clase ProductoElectronico está completamente vacía. No se cumple con ninguno de los requisitos especificados) Tj
+T* (en la descripción de la actividad.) Tj
 ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+510.2406299212597673 28.3464566929134207 Td
+(Página 2 de 3) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. g
+39.6850393700787407 28.3464566929134207 Td
+(Generado por Sistema de Evaluación IA) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 1104
+>>
+stream
+0.5670000000000001 w
+0. G
 BT
 /F2 12 Tf
 13.7999999999999989 TL
 0. g
-39.6850393700787407 338.6577165354332237 Td
+39.6850393700787407 785.1970866141732586 Td
 (Resumen General) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-39.6850393700787407 315.3191338582679464 Td
+39.6850393700787407 761.8585039370078675 Td
 (Necesita mejorar. Completó 0/4 actividades \(0%\) con una calificación promedio de 0.0/5. Se recomienda revisar los) Tj
 T* (conceptos fundamentales.) Tj
 ET
@@ -703,28 +735,28 @@ BT
 /F2 12 Tf
 13.7999999999999989 TL
 0. g
-39.6850393700787407 273.9766141732285405 Td
+39.6850393700787407 720.5159842519684616 Td
 (Recomendaciones) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 250.6380314960632631 Td
+51.0236220472441033 697.1774015748030706 Td
 (• Revisar y mejorar las actividades con calificación baja) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 234.9687401574806245 Td
+51.0236220472441033 681.5081102362204319 Td
 (• Enfocarse en mejorar la documentación y comentarios del código) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-51.0236220472441033 219.2994488188979858 Td
+51.0236220472441033 665.8388188976377933 Td
 (• Aplicar mejores prácticas de programación) Tj
 ET
 BT
@@ -732,7 +764,7 @@ BT
 9.1999999999999993 TL
 0. g
 510.2406299212597673 28.3464566929134207 Td
-(Página 2 de 2) Tj
+(Página 3 de 3) Tj
 ET
 BT
 /F1 8 Tf
@@ -745,11 +777,11 @@ endstream
 endobj
 1 0 obj
 <</Type /Pages
-/Kids [3 0 R 5 0 R ]
-/Count 2
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
 >>
 endobj
-7 0 obj
+9 0 obj
 <<
 /Type /Font
 /BaseFont /Helvetica
@@ -759,7 +791,7 @@ endobj
 /LastChar 255
 >>
 endobj
-8 0 obj
+10 0 obj
 <<
 /Type /Font
 /BaseFont /Helvetica-Bold
@@ -769,7 +801,7 @@ endobj
 /LastChar 255
 >>
 endobj
-9 0 obj
+11 0 obj
 <<
 /Type /Font
 /BaseFont /Helvetica-Oblique
@@ -779,7 +811,7 @@ endobj
 /LastChar 255
 >>
 endobj
-10 0 obj
+12 0 obj
 <<
 /Type /Font
 /BaseFont /Helvetica-BoldOblique
@@ -789,7 +821,7 @@ endobj
 /LastChar 255
 >>
 endobj
-11 0 obj
+13 0 obj
 <<
 /Type /Font
 /BaseFont /Courier
@@ -799,7 +831,7 @@ endobj
 /LastChar 255
 >>
 endobj
-12 0 obj
+14 0 obj
 <<
 /Type /Font
 /BaseFont /Courier-Bold
@@ -809,7 +841,7 @@ endobj
 /LastChar 255
 >>
 endobj
-13 0 obj
+15 0 obj
 <<
 /Type /Font
 /BaseFont /Courier-Oblique
@@ -819,7 +851,7 @@ endobj
 /LastChar 255
 >>
 endobj
-14 0 obj
+16 0 obj
 <<
 /Type /Font
 /BaseFont /Courier-BoldOblique
@@ -829,7 +861,7 @@ endobj
 /LastChar 255
 >>
 endobj
-15 0 obj
+17 0 obj
 <<
 /Type /Font
 /BaseFont /Times-Roman
@@ -839,7 +871,7 @@ endobj
 /LastChar 255
 >>
 endobj
-16 0 obj
+18 0 obj
 <<
 /Type /Font
 /BaseFont /Times-Bold
@@ -849,7 +881,7 @@ endobj
 /LastChar 255
 >>
 endobj
-17 0 obj
+19 0 obj
 <<
 /Type /Font
 /BaseFont /Times-Italic
@@ -859,7 +891,7 @@ endobj
 /LastChar 255
 >>
 endobj
-18 0 obj
+20 0 obj
 <<
 /Type /Font
 /BaseFont /Times-BoldItalic
@@ -869,7 +901,7 @@ endobj
 /LastChar 255
 >>
 endobj
-19 0 obj
+21 0 obj
 <<
 /Type /Font
 /BaseFont /ZapfDingbats
@@ -878,7 +910,7 @@ endobj
 /LastChar 255
 >>
 endobj
-20 0 obj
+22 0 obj
 <<
 /Type /Font
 /BaseFont /Symbol
@@ -891,32 +923,32 @@ endobj
 <<
 /ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
 /Font <<
-/F1 7 0 R
-/F2 8 0 R
-/F3 9 0 R
-/F4 10 0 R
-/F5 11 0 R
-/F6 12 0 R
-/F7 13 0 R
-/F8 14 0 R
-/F9 15 0 R
-/F10 16 0 R
-/F11 17 0 R
-/F12 18 0 R
-/F13 19 0 R
-/F14 20 0 R
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+/F7 15 0 R
+/F8 16 0 R
+/F9 17 0 R
+/F10 18 0 R
+/F11 19 0 R
+/F12 20 0 R
+/F13 21 0 R
+/F14 22 0 R
 >>
 /XObject <<
 >>
 >>
 endobj
-21 0 obj
+23 0 obj
 <<
 /Producer (jsPDF 3.0.1)
-/CreationDate (D:20251007101601-05'00')
+/CreationDate (D:20251007101702-05'00')
 >>
 endobj
-22 0 obj
+24 0 obj
 <<
 /Type /Catalog
 /Pages 1 0 R
@@ -925,37 +957,39 @@ endobj
 >>
 endobj
 xref
-0 23
+0 25
 0000000000 65535 f 
-0000016733 00000 n 
-0000018558 00000 n 
+0000017339 00000 n 
+0000019172 00000 n 
 0000000015 00000 n 
 0000000152 00000 n 
-0000011601 00000 n 
-0000011738 00000 n 
-0000016796 00000 n 
-0000016921 00000 n 
-0000017051 00000 n 
-0000017184 00000 n 
-0000017322 00000 n 
-0000017446 00000 n 
-0000017575 00000 n 
-0000017707 00000 n 
-0000017843 00000 n 
-0000017971 00000 n 
-0000018098 00000 n 
-0000018227 00000 n 
-0000018360 00000 n 
-0000018462 00000 n 
-0000018808 00000 n 
-0000018894 00000 n 
+0000009849 00000 n 
+0000009986 00000 n 
+0000016046 00000 n 
+0000016183 00000 n 
+0000017408 00000 n 
+0000017533 00000 n 
+0000017664 00000 n 
+0000017798 00000 n 
+0000017936 00000 n 
+0000018060 00000 n 
+0000018189 00000 n 
+0000018321 00000 n 
+0000018457 00000 n 
+0000018585 00000 n 
+0000018712 00000 n 
+0000018841 00000 n 
+0000018974 00000 n 
+0000019076 00000 n 
+0000019424 00000 n 
+0000019510 00000 n 
 trailer
 <<
-/Size 23
-/Root 22 0 R
-/Info 21 0 R
-/ID [ <6C814369FF3665EBC1BCC6F0F113019E> <6C814369FF3665EBC1BCC6F0F113019E> ]
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+/ID [ <E819C6ABA30C091F13D1BF288667BA6C> <E819C6ABA30C091F13D1BF288667BA6C> ]
 >>
 startxref
-18998
+19614
 %%EOF
